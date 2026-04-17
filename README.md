@@ -1,7 +1,3 @@
-Desarrollo de Software 
-ej_04
-56802-García Luca-Luca.Garcia@alu.frt.utn.edu.ar 
-58390-Rocha Priscila-priscila.rocha@alu.frt.utn.edu.ar
 
 
 
