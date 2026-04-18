@@ -8,6 +8,9 @@ public class Persistencia {
     private static ArrayList<Vehiculo> vehiculos = new ArrayList<>();
     private static ArrayList<Responsable> responsables = new ArrayList<>();
     private static ArrayList<Sucursal> sucursales = new ArrayList<>();
+    private static ArrayList<Marca> marcas = new ArrayList<>();
+    
+    
     
     private static void inicializarResponsables(){
         Responsable r1 = new Responsable("Carlos Gómez", "25444111", "3815551111");
@@ -40,6 +43,15 @@ public class Persistencia {
         vehiculos.add(v4);
     }
     
+    private static void inicializarMarcas()
+    {
+        marcas.add(new Marca("Renault (Francia)"));
+        marcas.add(new Marca("Ford (EE.UU.)"));
+        marcas.add(new Marca("Iveco(Italia)"));
+        marcas.add(new Marca("Mercedes-Benz (Alemania)"));
+        
+    }
+    
     public static ArrayList<Vehiculo> getVehiculos(){
         return vehiculos;
     }
@@ -54,5 +66,6 @@ public class Persistencia {
         inicializarResponsables();
         inicializarSucursales();
         inicializarVehiculos();
+        inicializarMarcas();
     }
 }
